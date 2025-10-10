@@ -1,0 +1,70 @@
+/*liste de tache styliser*/
+.todo-list{
+  border-radius:5%;
+  width:500px;
+  margin-left:auto;
+  margin-right:auto;
+  justify-content:center;
+  background-color:white;
+
+list-style-type:none;
+padding:20px;
+}
+
+h1{
+ text-align:center;
+}
+
+
+
+
+
+body{
+ font-family:Arial;
+ padding:20px;
+
+ background-color:rgb(239, 239, 247);
+}
+
+.sub-item-link{
+ text-decoration:none;
+ color:green;
+}
+
+.sub-item-link:visited{
+ color:yellow;
+}
+
+
+.sub-item-link:hover{
+ color:brown;
+}
+
+.sub-item-link:focus {
+  outline: 3px solid orange;   /* contour visible */
+  outline-offset: 2px;
+}
+
+/* 5️⃣ Changer la couleur quand le lien est cliqué (état actif) */
+.sub-item-link:active {
+  color: rgb(200, 0, 0);
+}
+.sub-item{
+list-style-type: square;
+  margin-left: 25px;
+  margin-top: 8px;
+}
+
+
+.todo-list > li {
+  background-color: rgb(230, 242, 230);
+  border-radius: 12px;
+  padding: 15px;
+  margin-bottom: 15px; /* espace entre les tâches */
+  border: 1px solid #c9dec9; /* fine bordure */
+}
+
+
+
+
+
